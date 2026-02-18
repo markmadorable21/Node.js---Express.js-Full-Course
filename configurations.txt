@@ -18,3 +18,16 @@ node.js = server-side applications
     node app.js
 6. we can use VS code terminal to run node.js by using Ctrl+` and then redo step 5.
 
+GLOBALS = NO Window
+
+__dirname = path to current directory
+__filename = file name
+require = function to use modules (CommonJS)
+module = info about current module (file)
+process = info about env where the program is being executed
+
+shortcut for copying a line Shift + Alt + Arrow
+
+CommonJS, every file is module (by default)
+Modules = Encapsulated Code (only share minimum)
+

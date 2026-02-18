@@ -1,9 +1,13 @@
-const amount = 8;
+console.log(__dirname);
+console.log(__filename);
 
-if (amount < 10) {
-  console.log('small number');
-} else {
-  console.log('large number');
-}
+//Modules
+const john = 'john';
+const peter = 'peter';
+const sayHi = (name) => {
+  console.log(`Hello there ${name}`);
+};
 
-console.log(`hey it's my first node app`);
+sayHi('Susan');
+sayHi(peter);
+sayHi(john);
