@@ -1,0 +1,20 @@
+node.js = server-side applications
+= environment to run JS outside the browser
+= built on Chrome's V8 JS Engine
+= no DOM, no window, server side apps, filesystem, versions, CommonJS
+
+1. install node.js LTS version
+2. check version by typing in the terminal:
+    node --version
+3. to evaluate our node, we can use Read-Eval-Print Loop (REPL) or CLI
+    REPL is for playing around
+    CLI is for everything
+4. to use REPL, type in the terminal:
+    node
+  to close:
+    Ctrl+C
+5. create a folder for your project and cd to that folder in the terminal
+  to run app.js, in the terminal enter:
+    node app.js
+6. we can use VS code terminal to run node.js by using Ctrl+` and then redo step 5.
+
