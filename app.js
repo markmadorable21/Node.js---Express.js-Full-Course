@@ -1,13 +1,13 @@
 console.log(__dirname);
 console.log(__filename);
 
-//Modules
-const john = 'john';
-const peter = 'peter';
-const sayHi = (name) => {
-  console.log(`Hello there ${name}`);
-};
+//accessing the exported variables from 4-names.js file
+const names = require('./4-names');
+//accessing the exported method from 5-utils.js file
+const sayHi = require('./5-utils');
+console.log(names);
 
-sayHi('Susan');
-sayHi(peter);
-sayHi(john);
+//Modules
+sayHi('susan');
+sayHi(names.peter);
+sayHi(names.john);

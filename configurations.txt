@@ -31,3 +31,6 @@ shortcut for copying a line Shift + Alt + Arrow
 CommonJS, every file is module (by default)
 Modules = Encapsulated Code (only share minimum)
 
+every file is a module where methods and variables only accessible within the module itself
+
+for path, 1 dot for inside the folder, 2 dots to go outside the path where the file is
