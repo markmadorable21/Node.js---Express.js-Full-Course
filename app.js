@@ -11,3 +11,7 @@ console.log(names);
 sayHi('susan');
 sayHi(names.peter);
 sayHi(names.john);
+
+//calling alternative exporting
+const data = require('./6-alternative-export');
+console.log(data);
