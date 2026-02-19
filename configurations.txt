@@ -37,8 +37,10 @@ for path, 1 dot for inside the folder, 2 dots to go outside the path where the f
 
 BUILT-IN Modules
 built-in modules don't need to install, unlike external modules that need to be downloaded
-
 OS =
 PATH = 
-FS =
+File System = synchronous, asynchronous
+node overwrites the content of the file when writing new content
+
+we can add flag in WriteFileSync using 'a' to append
 HTTP = 
