@@ -66,3 +66,8 @@ if we have package.json after cloning a project folder from GH, we only type:
 
 in the package.json/scripts/start, the file added will gonna be executed when the this command is typed in the terminal:
     npm start
+
+to run without typing node <file,js>, type in (after setting dev in scripts to nodemon app.js):
+    npm run dev 
+to exit:
+    Ctrl+C
