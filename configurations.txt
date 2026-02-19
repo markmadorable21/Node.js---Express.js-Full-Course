@@ -45,3 +45,15 @@ node overwrites the content of the file when writing new content
 we can add flag in WriteFileSync using 'a' to append
 
 4. HTTP = 
+
++================================================
+NPM configurations
+npm local package install:
+    npm i <packageName>
+
+npm global package install:
+    npm install -g <packageName>
+
+to add package.json for dependency packages
+    npm init (step by step, press enter to skip)
+    npm init -y (everything default)
