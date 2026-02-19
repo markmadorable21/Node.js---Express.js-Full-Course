@@ -18,4 +18,5 @@ console.log(data);
 
 //calling alternative exporting of methods
 //this executes the method defined in 7-mind-grenade when running node app.js
+//when you importing or requiring a method, you invoke or execute the method if called in the other file 7-mind-grenade when running node app.js
 require('./7-mind-grenade');
