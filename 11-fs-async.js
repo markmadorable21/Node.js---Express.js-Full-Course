@@ -1,12 +1,15 @@
 //asynchronous (non-blocking, does not wait)
 //callback
 const { readFile, writeFile } = require('fs');
+console.log('start');
 
 readFile('./content/first.txt', 'utf8', (err, result) => {
   if (err) {
     console.log(err);
     return;
   }
+  console.log('read first file');
+
   // console.log(result);
   const first = result;
 
@@ -15,6 +18,8 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
       console.log(err);
       return;
     }
+    console.log('read second file');
+
     const second = result;
 
     writeFile(
@@ -32,3 +37,5 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
     );
   });
 });
+
+console.log('done');
