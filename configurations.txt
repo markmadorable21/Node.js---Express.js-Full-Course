@@ -58,5 +58,11 @@ to add package.json for dependency packages
     npm init (step by step, press enter to skip)
     npm init -y (everything default)
 
+installing dev_dependencies
+npm i nodemon -D
+
 if we have package.json after cloning a project folder from GH, we only type:
     npm install (npm will check package.json and install dependencies, expect to have node_modules folder created)
+
+in the package.json/scripts/start, the file added will gonna be executed when the this command is typed in the terminal:
+    npm start
