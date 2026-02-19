@@ -1,22 +1,20 @@
-console.log(__dirname);
-console.log(__filename);
+// OS Module
+const os = require('os');
 
-//accessing the exported variables from 4-names.js file
-const names = require('./4-names');
-//accessing the exported method from 5-utils.js file
-const sayHi = require('./5-utils');
-console.log(names);
+// info about current user
+const user = os.userInfo();
+console.log(user);
 
-//Modules
-sayHi('susan');
-sayHi(names.peter);
-sayHi(names.john);
+//OS uptime
+console.log(`OS Uptime (sec): ${os.uptime()}`);
 
-//calling alternative exporting for variables
-const data = require('./6-alternative-export');
-console.log(data);
+const currentOS = {
+  name: os.type(),
+  release: os.release(),
+  totalMem: os.totalmem(),
+  freeMem: os.freemem(),
+};
 
-//calling alternative exporting of methods
-//this executes the method defined in 7-mind-grenade when running node app.js
-//when you importing or requiring a method, you invoke or execute the method if called in the other file 7-mind-grenade when running node app.js
-require('./7-mind-grenade');
+console.log(currentOS);
+
+

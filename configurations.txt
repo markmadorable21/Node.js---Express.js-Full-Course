@@ -34,3 +34,11 @@ Modules = Encapsulated Code (only share minimum)
 every file is a module where methods and variables only accessible within the module itself
 
 for path, 1 dot for inside the folder, 2 dots to go outside the path where the file is
+
+BUILT-IN Modules
+built-in modules don't need to install, unlike external modules that need to be downloaded
+
+OS =
+PATH = 
+FS =
+HTTP = 
