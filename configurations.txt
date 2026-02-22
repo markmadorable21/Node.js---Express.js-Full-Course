@@ -64,10 +64,10 @@ npm i nodemon -D
 if we have package.json after cloning a project folder from GH, we only type:
     npm install (npm will check package.json and install dependencies, expect to have node_modules folder created)
 
-in the package.json/scripts/start, the file added will gonna be executed when the this command is typed in the terminal:
+in the package.json/scripts, add nodemon app.js as value in a start key then type this command below to run app.js using nodemon:
     npm start
 
-to run without typing node <file,js>, type in (after setting dev in scripts to nodemon app.js and start to node app.js):
+same above in dev key, add nodemon app.js to run the backend with nodemon:
     npm run dev 
 to exit:
     Ctrl+C

@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "1-intro.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "dev": "nodemon app.js"
   },
   "dependencies": {
