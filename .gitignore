@@ -1,4 +1,3 @@
-*.mp4
-*.png
+video-tutorials/
+screenshots/
 node_modules/
-.env 
