@@ -72,6 +72,17 @@ same above in dev key, add nodemon app.js to run the backend with nodemon:
 to exit:
     Ctrl+C
 
+=======================================================
+
 EXPRESS
 
 1. npm install express --save
+
+HTTP APP
+// app.get
+// app.post
+// app.put
+// app.delete
+// app.all
+// app.use
+// app.listen
