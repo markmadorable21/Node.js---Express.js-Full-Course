@@ -71,3 +71,7 @@ to run without typing node <file,js>, type in (after setting dev in scripts to n
     npm run dev 
 to exit:
     Ctrl+C
+
+EXPRESS
+
+1. npm install express --save
