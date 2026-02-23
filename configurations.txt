@@ -86,3 +86,10 @@ HTTP APP
 // app.all
 // app.use
 // app.listen
+
+HTTP METHODS
+GET - read data / get all orders
+POST - insert data / place an order
+PUT - update data / update specific order
+DELETE - delete data / delete order
+
